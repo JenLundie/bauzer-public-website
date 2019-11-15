@@ -1,0 +1,27 @@
+{
+  "name": "bauzer.co.za",
+  "version": "1.0.0",
+  "description": "This site uses Eleventy, a static site generator.",
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Collective-C/bauzer-public-website.git"
+  },
+  "author": {
+    "name": "Code Collective",
+    "email": "contact@codecollective.com",
+    "url": "https://codecollective.com/"
+  },
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Code-Collective-C/bauzer-public-website/issues"
+  },
+  "homepage": "https://github.com/Code-Collective-C/bauzer-public-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
