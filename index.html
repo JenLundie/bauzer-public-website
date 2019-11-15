@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bauzer</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+</head>
+
+<body>
+    <div class="container">
+        {% include nav.html %}
+        {% include carousel.html %}
+        <!-- iFrame content Gregg -->
+        <div class="container">
+            <div class="row scll">
+
+                 <div class="col-md-3 pp_logo">BEST PRICE PROJECTION</div>
+                <div class="col-md-9 pp_info">{% include price_project.html %}</div>
+            </div>
+        </div>
+        <p class="clearfix"></p>
+        <div class="container">
+            <div class="row main">
+                <article class="col-lg-9">
+                    <a href="/deals/" class="pull-right btn btn-secondary">Click to view all deals</a>
+                    <h1>Welcome to Bauzer</h1>
+                    <h3>Your leader in bulk fuel trading</h3>
+                    <p>Bauzer  uses <strong>modern technology</strong> and <strong>innovative</strong> <strong>methods</strong> to service the <strong>bulk  fuel-trading</strong> market. With combined <strong>management</strong> experience of over <strong>70 years</strong> in the  industry, we understand the <strong>complexities</strong> and <strong>pitfalls</strong> of the <strong>fuel trading</strong> market and have the<strong> solutions</strong> you need.  </p>
+                    <p><strong>Our main goal is to enable you, our customer,  to enjoy a lower fuel spend!</strong></p>
+                    <section class="cardlinks">
+                    <div class="row">
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-header orangelgt">
+                                Bauzer Platform
+                                </div>
+                                <div class="card-body greylgt">
+                                    Your <strong>real-time, web-based fuel trading</strong> solution for the <strong>purchase</strong> and <strong>sale</strong> of fuel.
+                                </div>
+                                <div class="card-footer greylgt">
+                                    <a class="btn btn-warning btn-sm" href="/platform/">Read more</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header orangedrk">
+                                Benefits
+                                </div>
+                                <div class="card-body greydrk">
+                                    What the Bauzer platform offers both <strong>buyers </strong>and<strong> sellers</strong> of petroleum products
+                                </div>
+                                <div class="card-footer greydrk">
+                                    <a class="btn btn-warning btn-sm" href="/benefits/">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-header orangedrk">
+                                Collection Points</div>
+                                <div class="card-body greydrk">All our participating <strong>collection points</strong> around the country.</div>
+                                <div class="card-footer greydrk">
+                                    <a class="btn btn-warning btn-sm" href="#">Read more</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header orangelgt">On-road refuelling</div>
+                                <div class="card-body greylgt"><strong>A  REAL-TIME</strong>, all-in-one Fuel Management System  that helps you manage all your <strong>on-road and driver spending</strong>.</div>
+                                <div class="card-footer greylgt">
+                                    <a class="btn btn-warning btn-sm" href="http://www.tfn.co.za" target="_blank">Visit TruckFuelNet</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                    <h3>Bauzer – The Quickest Route to the Best Fuel Price </h3>
+                    <p>Bauzer is a subsidiary of <strong>Renati Group (Pty) Ltd</strong>. Established in <strong>2006</strong>, the group has given rise to  market leaders like <strong>TruckFuelNet</strong> (on-road refuelling) and <strong>Nito Energy</strong> (wholesale fuel) and today has over <strong>R3&nbsp;billion</strong> in turnover, servicing <strong>650  plus clients</strong> and trading <strong>over 400  million litres</strong> of fuel per annum.<strong> </strong></p>
+                    <p class="clearfix"></p>
+
+
+
+                </article>
+                <aside class="col-lg-3">
+                   {% include aside.html %}
+                </aside>
+            </div>
+        </div>
+<div class="container">
+{% include footer.html %}
+</div>
+    </div>
+{% include modal.html %}
+{% include modal1.html %}
+
+    <script src="/js/jquery_3_3_1.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+     <script src="/js/custom.js"></script>
+
+</body>
+</html>

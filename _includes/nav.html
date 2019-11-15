@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="/images/bauzer_logo.png" alt="Bauzer" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item {% if page.url == "Home" %}active{% endif %}">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item {% if page.url == "/platform/" %}active{% endif %}">
+                <a class="nav-link" href="/platform/">Bauzer Platform</a>
+            </li>
+            <li class="nav-item {% if page.url == "/auction/" %}active{% endif %}">
+                <a class="nav-link" href="/auction/">Auction</a>
+            </li>
+            <li class="nav-item {% if page.url == "/benefits/" %}active{% endif %}">
+                <a class="nav-link" href="/benefits/">Benefits</a>
+            </li>
+            <li class="nav-item {% if page.url == "/collection/" %}active{% endif %}">
+                <a class="nav-link" href="/collection/">Collection Points</a>
+            </li>
+            <li class="nav-item {% if page.url == "/faq/" %}active{% endif %}">
+                <a class="nav-link" href="/faq/">FAQs</a>
+            </li>
+            <li class="nav-item {% if page.url == "/company/" %}active{% endif %}">
+                <a class="nav-link" href="/company/">Company</a>
+            </li>
+            <li class="nav-item {% if page.url == "/contact/" %}active{% endif %}">
+                <a class="nav-link" href="/contact/">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
