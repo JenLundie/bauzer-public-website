@@ -1,3 +1,14 @@
 backend:
   name: git-gateway
 media_folder: "images"
+collections:
+  - label: "Content"
+    name: "content"
+    files:
+      - label: "Home page"
+        name: "home-page"
+        file: "index.html"
+        fields:
+          - { label: "Intro", name: "intro", widget: "markdown" }
+          - { label: "Outro", name: "outro", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "hidden" }
