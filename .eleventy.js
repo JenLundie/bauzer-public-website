@@ -4,4 +4,5 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("video");
+  eleventyConfig.addPassthroughCopy("admin/config.yml");
 };
