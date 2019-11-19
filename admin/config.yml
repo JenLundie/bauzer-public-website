@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
 media_folder: "images"
+editor:
+  preview: false
 collections:
   - label: "Content"
     name: "content"
