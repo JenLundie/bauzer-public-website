@@ -88,31 +88,18 @@ Bauzer is a subsidiary of **Renati Group (Pty) Ltd**. Established in **2006**, t
                 </aside>
             </div>
         </div>
-<div class="container">
-{% include footer.html %}
-</div>
-    </div>
-{% include modal.html %}
-{% include modal1.html %}
-
-    <script src="/js/jquery_3_3_1.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-     <script src="/js/custom.js"></script>
-
-    <!-- Include Netlify Identity for authentication -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-    <script>
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", user => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-                });
-            }
+<!-- Include Netlify Identity for authentication -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
             });
         }
-    </script>
-</body>
-</html>
+        });
+    }
+</script>
+
+{% include page-footer.html %}
