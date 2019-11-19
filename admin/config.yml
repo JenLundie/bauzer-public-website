@@ -14,3 +14,9 @@ collections:
           - { label: "Intro", name: "intro", widget: "markdown" }
           - { label: "Outro", name: "outro", widget: "markdown" }
           - { label: "Body", name: "body", widget: "hidden" }
+      - label: "Sidebar"
+        name: "sidebar"
+        file: "_data/projected-price-change.json"
+        fields:
+          - { label: "50ppm", name: "50ppm", widget: "string" }
+          - { label: "500ppm", name: "500ppm", widget: "string" }
