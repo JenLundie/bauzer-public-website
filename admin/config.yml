@@ -1,11 +1,11 @@
 backend:
   name: git-gateway
 media_folder: "images"
-editor:
-  preview: false
 collections:
   - label: "Website Content"
     name: "website-content"
+    editor:
+      preview: false
     files:
       - label: "Home page"
         name: "home-page"
