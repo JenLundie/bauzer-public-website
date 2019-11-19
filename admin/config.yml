@@ -4,8 +4,8 @@ media_folder: "images"
 editor:
   preview: false
 collections:
-  - label: "Content"
-    name: "content"
+  - label: "Website Content"
+    name: "website-content"
     files:
       - label: "Home page"
         name: "home-page"
