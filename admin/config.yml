@@ -20,3 +20,13 @@ collections:
         fields:
           - { label: "50ppm", name: "50ppm", widget: "string" }
           - { label: "500ppm", name: "500ppm", widget: "string" }
+      - label: "Images"
+        name: "images"
+        file: "_data/images.json"
+        fields:
+          - {
+              label: "Logo",
+              name: "logo",
+              widget: "image",
+              default: "/images/bauzer_logo.png",
+            }
