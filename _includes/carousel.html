@@ -9,7 +9,7 @@
       <img class="d-block w-100" src="/images/slider_01.jpg" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
         <h5>Get the best price for your fuel purchase</h5>
-            <a href="/lead/" class="btn btn-warning btn-caption">CLICK HERE!</a>
+        {% if page.url != "/lead/" %}<a href="/lead/" class="btn btn-warning btn-caption">CLICK HERE!</a>{% endif %}
       </div>
     </div>
   </div>
