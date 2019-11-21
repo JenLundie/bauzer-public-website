@@ -6,27 +6,10 @@ collections:
     name: "website-content"
     editor:
       preview: false
-    # files:
-    #   - label: "Home page"
-    #     name: "home-page"
-    #     file: "index.html"
-    #     fields:
-    #       - { label: "Intro", name: "intro", widget: "markdown" }
-    #       - { label: "Outro", name: "outro", widget: "markdown" }
-    #       - { label: "Body", name: "body", widget: "hidden" }
-    #   - label: "Sidebar"
-    #     name: "sidebar"
-    #     file: "_data/projected-price-change.json"
-    #     fields:
-    #       - { label: "50ppm", name: "50ppm", widget: "string" }
-    #       - { label: "500ppm", name: "500ppm", widget: "string" }
-    #   - label: "Images"
-    #     name: "images"
-    #     file: "_data/images.json"
-    #     fields:
-    #       - {
-    #           label: "Logo",
-    #           name: "logo",
-    #           widget: "image",
-    #           default: "/images/bauzer_logo.png",
-    #         }
+    files:
+      - label: "Home page"
+        name: "home-page"
+        file: "index.html"
+        fields:
+          - { label: "Body", name: "body", widget: "hidden" }
+          # - { label: "Example field", name: "example-field", widget: "string" }
