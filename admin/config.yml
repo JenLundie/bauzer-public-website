@@ -13,3 +13,12 @@ collections:
         fields:
           - { label: "Body", name: "body", widget: "hidden" }
           # - { label: "Example field", name: "example-field", widget: "string" }
+      - label: "Fuel price changes"
+        name: "fuel-price-change"
+        file: "_includes/aside.html"
+        fields: 
+          - { label: "Month", name: "month", widget: "string" }        
+          - { label: "Diesel 50ppm", name: "d50Change", widget: "string" }        
+          - { label: "ULP 93", name: "ulp93Change", widget: "string" }        
+          - { label: "ULP 95", name: "ulp95Change", widget: "string" }        
+          - { label: "Illuminating Paraffin", name: "ipChange", widget: "string" }                  
