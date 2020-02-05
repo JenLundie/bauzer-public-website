@@ -21,4 +21,5 @@ collections:
           - { label: "Diesel 50ppm", name: "d50Change", widget: "string" }        
           - { label: "ULP 93", name: "ulp93Change", widget: "string" }        
           - { label: "ULP 95", name: "ulp95Change", widget: "string" }        
-          - { label: "Illuminating Paraffin", name: "ipChange", widget: "string" }                  
+          - { label: "Illuminating Paraffin", name: "ipChange", widget: "string" }   
+          - { label: "Body", name: "body", widget: "hidden" }          
