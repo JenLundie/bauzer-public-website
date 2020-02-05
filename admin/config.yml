@@ -15,7 +15,7 @@ collections:
           # - { label: "Example field", name: "example-field", widget: "string" }
       - label: "Fuel price changes"
         name: "fuel-price-change"
-        file: "_includes/aside.html"
+        file: "_data/fuelprices.json"
         fields: 
           - { label: "Month", name: "month", widget: "string" }        
           - { label: "Diesel 50ppm", name: "d50Change", widget: "string" }        
