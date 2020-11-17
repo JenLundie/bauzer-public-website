@@ -1,7 +1,7 @@
 {
   "month": "November",
-  "d50Change": "-11",
-  "ulp93Change": "-27",
-  "ulp95Change": "-27",
-  "ipChange": "+15"
+  "d50Change": "-2.475",
+  "ulp93Change": "-33.212",
+  "ulp95Change": "-34.909",
+  "ipChange": "+10.675"
 }
