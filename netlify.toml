@@ -1,3 +1,9 @@
 [build]
   publish = "_site"
   command = "eleventy"
+  
+[[redirects]]
+  from = "/"
+  to = "/comingsoon"
+  status = 302
+  force = true
